@@ -1,0 +1,13 @@
+-- get id from this insert script, say, @NEWUSERID
+insert into umbracouser values (0,0,1,-1,-1,'newuser','newUser@email.com','WWQRCSb3HLy/5+k2PmXAvr1Vj4s=',''newUser@email.com','en','24e7bbb0-62ff-448b-88af-f3ceaa741078',NULL,NULL,'2016-11-21 12:30:26.887','2016-11-21 13:34:07.720')
+
+insert into umbracouser2app values (@NEWUSERID,'content')
+insert into umbracouser2app values (@NEWUSERID,'developer')
+insert into umbracouser2app values (@NEWUSERID,'forms')
+insert into umbracouser2app values (@NEWUSERID,'media')
+insert into umbracouser2app values (@NEWUSERID,'member')
+insert into umbracouser2app values (@NEWUSERID,'settings')
+insert into umbracouser2app values (@NEWUSERID,'users')
+
+
+

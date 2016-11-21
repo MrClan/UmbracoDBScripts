@@ -4,7 +4,7 @@
 -- Template generated from Template Explorer using:
 -- Create Procedure (New Menu).SQL
 --
--- This will create new user as administrator with permissions to all the sections in umbraco.
+-- This will create new user as administrator with permissions to all the sections in umbraco. == Password is '12345678' by default.
 -- This will create new user as administrator with permissions to all the sections in umbraco. 
 -- This will create new user as administrator with permissions to all the sections in umbraco.
 --
